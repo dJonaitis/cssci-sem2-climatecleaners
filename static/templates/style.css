@@ -1,0 +1,94 @@
+/*--------------------------------------------------------------
+# facts and figures
+--------------------------------------------------------------*/
+
+.facts {
+    padding-bottom: 30px;
+}
+
+.facts .card {
+    border-radius: 3px;
+    border: 0;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.facts .card-icon {
+    text-align: center;
+    margin-top: -32px;
+}
+
+.facts .card-icon i {
+    font-size: 32px;
+    color: #fff;
+    width: 64px;
+    height: 64px;
+    padding-top: 10px;
+    text-align: center;
+    background-color: #1e6a1f;
+    border-radius: 50%;
+    text-align: center;
+    border: 4px solid #fff;
+    transition: 0.3s;
+    display: inline-block;
+}
+
+.facts .card-body {
+    padding-top: 12px;
+}
+
+.facts .card-title {
+    font-weight: 700;
+    text-align: center;
+}
+
+.facts .card-title a {
+    color: #1c472e;
+}
+
+.facts .card-text {
+    color: #5e5e5e;
+}
+
+
+/*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+
+section {
+    padding: 80px 0;
+}
+
+.section-bg {
+    background-color: #17653012;
+}
+
+.section-title {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.section-title h2 {
+    font-size: 32px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    position: relative;
+}
+
+.section-title h2::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 80px;
+    height: 1px;
+    background: #1e472c;
+    bottom: 0;
+    left: calc(50% - 40px);
+}
+
+.section-title p {
+    margin-bottom: 0;
+    font-style: italic;
+    color: #666666;
+}
