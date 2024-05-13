@@ -86,29 +86,13 @@ section {
     position: relative;
 }
 
-.section-title h2::after {
-    content: "";
-    position: absolute;
-    display: block;
-    width: 80px;
-    height: 1px;
-    background: #1e472c;
-    bottom: 0;
-    left: calc(50% - 40px);
-}
-
-.section-title p {
-    margin-bottom: 0;
-    font-style: italic;
-    color: #666666;
-}
-
 
 /*--------------------------------------------------------------
 # F.A.Q
 --------------------------------------------------------------*/
 .faq {
 padding: 60px 0;
+text-align: center;
 }
 
 .faq .faq-list {
@@ -125,13 +109,13 @@ padding-bottom: 20px;
 .faq .faq-list .question {
 display: block;
 position: relative;
-font-family: #023603;
-font-size: 18px;
+font-family: #0a600b;
+font-size: 22px;
 line-height: 24px;
-font-weight: 400;
+font-weight: 300;
 padding-left: 25px;
 cursor: pointer;
-color: #093b0d;
+color: #16561c;
 transition: 0.3s;
 }
 
@@ -156,7 +140,7 @@ color: black;
 }
 
 .faq .faq-list .collapsed:hover {
-color: #0c6216;
+color: #197724;
 }
 
 .faq .faq-list .collapsed .icon-show {
@@ -168,3 +152,4 @@ transition: 0.6s;
 display: none;
 transition: 0.6s;
 }
+
