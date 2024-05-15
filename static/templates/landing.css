@@ -1,3 +1,56 @@
+/*-----------------------
+general
+-------------------------*/
+.h1 {
+    font-family: 'Trebuchet MS', sans-serif;
+}
+.title{
+    font-size: 5em;
+    color: rgb(16, 26, 16);
+    margin-top: -100px;
+    animation: slideIn 3s forwards; /* Animation definition */
+}
+    
+@keyframes slideIn {
+    from {
+        margin-top: -200px; /* Start position */
+    }
+    to {
+        margin-top: -100px; /* End position */
+    }
+}
+    
+
+
+
+.big {
+    font-size: 8em;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.434);
+}
+
+.land{
+    background-color: rgba(42, 98, 72, 0.315);
+    border-radius: 35px;
+
+}
+.ocean {
+    background-color: rgba(157, 190, 223, 0.429);
+    border-radius: 35px;
+}
+.rock {
+    background-color: rgba(224, 208, 172, 0.234);
+    border-radius: 35px;
+}
+.construction {
+    background-color: rgba(84, 123, 98, 0.204);
+    border-radius: 35px;
+}
+
+
+/*-----------------------
+Wave effect
+-------------------------*/
 section {
     position: relative;
     width: 100%;
@@ -50,4 +103,15 @@ section {
     50% {
         transform: translateY(30px)
     }
+}
+
+
+
+
+
+
+.section {
+    opacity: 0;
+    transform: translateY(50px); /* Initial position outside the viewport */
+    transition: opacity 1s ease, transform 1s ease;
 }
