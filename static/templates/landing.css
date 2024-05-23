@@ -117,5 +117,5 @@ section {
 .section {
     opacity: 0;
     transform: translateY(50px); /* Initial position outside the viewport */
-    transition: opacity 1s ease, transform 1s ease;
+    transition: opacity 0.5s ease, transform 0.5s ease;
 }
