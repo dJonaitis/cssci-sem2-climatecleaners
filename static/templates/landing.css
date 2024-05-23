@@ -21,6 +21,10 @@ general
 }
     
 
+.top-image{
+    background-size: cover;
+    margin-bottom: 80px;
+}
 
 
 .big {
