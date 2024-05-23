@@ -1,0 +1,227 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Entrepreneurs</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">       
+        <link rel="stylesheet" href="templates/style.css"> 
+        <style>
+            .nav-item{
+                font-size: 1.25rem;
+            }
+        </style>
+    </head>
+    <body>
+   <!---- ======= Navbar ======= ---->
+   <body>
+    <nav class="navbar navbar-expand-lg navbar-transparent">
+      <div class="container">
+        <div class="row">
+            <div class="col-md-12"></div>
+        </div>
+        <div class="collapse navbar-collapse justify-content-center text-center" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+            <li class="nav-item px-3">
+                <a class="nav-link" href="index.html">Our Solution</a>
+            </li>
+            <li class="nav-item dropdown px-3">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Pillars
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="pillar-land.html">Land</a></li>
+              <li><a class="dropdown-item" href="pillar-ocean.html">Ocean</a></li>
+              <li><a class="dropdown-item" href="pillar-construction.html">Construction</a></li>
+              <li><a class="dropdown-item" href="pillar-rock.html">Rock</a></li>
+              </ul>
+            </li>
+            <li class="nav-item"><a href="index.html" class="nav-link px-3 text-muted"><img src="images/logo.png" alt="Logo" style="height: 2rem;"></a></li>
+            <li class="nav-item px-3">
+              <a class="nav-link" href="entrepreneurs.html">Entrepreneurs</a>
+            </li>
+            <li class="nav-item px-3">
+                <a class="nav-link" href="faq.html">FAQ</a>
+            </li>
+            </ul>
+        </div>
+      </div>
+    </nav>
+        <!-- Body content here -->
+        <!-- Carousel -->
+        <!-- The buttons in the carousel should open the same modals for entrepreneur stories as the highlights underneath -->
+    <div id="carouselExampleCaptions" class="carousel slide h-30" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 1"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/entrepreneurs/heleenelshuis.jpg" class="d-block mx-lg-auto img-fluid" alt="Entrepreneur one">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Heleen Elshuis</h5>
+                    <p>Bosnodig - Foodforest agains climate change</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/entrepreneurs/alexanderebbing.jpg" class="d-block mx-lg-auto img-fluid" alt="Entrepreneur two">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Alexander Ebbing</h5>
+                    <p>Green Tec - Seaweed cultivation Pioneer</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/entrepreneurs/cleanupbamboo.jpg" class="d-block mx-lg-auto img-fluid" alt="Entrepreneur three">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Bamboo Logic</h5>
+                    <p>Store CO2 with bamboo</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/entrepreneurs/wheelbarron.jpg" class="d-block mx-lg-auto img-fluid" alt="Entrepreneur four">
+              <div class="carousel-caption d-none d-md-block">
+                  <h5>Inge van Kapel</h5>
+                  <p>Bosnodig - Foodforest agains climate change</p>
+              </div>
+          </div>            
+        </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+        
+        
+        <!-- entrepreneur circular highlight -->
+        <!--
+        
+            <div class="row text-center">
+              <div class="col-lg-4">
+                <img class="rounded-circle" src="images/land-entrepreneur.jpg" alt="Generic placeholder image" width="140" height="140">
+                <h2>Some entrepreneur</h2>
+                <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+                <p><a class="btn btn-secondary" href="#" role="button">Read more</a></p>
+              </div><!- /.col-lg-4 ->
+              <div class="col-lg-4">
+                <img class="rounded-circle" src="images/land-entrepreneur.jpg" alt="Generic placeholder image" width="140" height="140">
+                <h2>Another entrepreneur</h2>
+                <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+                <p><a class="btn btn-secondary" href="#" role="button">Read more</a></p>
+              </div><!- /.col-lg-4 ->
+              <div class="col-lg-4">
+                <img class="rounded-circle" src="images/land-entrepreneur.jpg" alt="Generic placeholder image" width="140" height="140">
+                <h2>Entrepreneur 3</h2>
+                <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                <p><a class="btn btn-secondary" href="#" role="button">Read more</a></p>
+              </div><!- /.col-lg-4 ->
+            </div><!- /.row ->
+
+          -->
+
+        <div class="container mt-5">
+          <hr class="featurette-divider">
+          <!-- Entrepreneur featurettes -->
+          <div class="row featurette">
+            <div class="col-md-7">
+              <h2 class="featurette-heading">Liesbeth Benthuizen. <span class="text-muted">Voedselbos</span></h2>
+              <p class="lead">Liesbeth van Bemmel, founder and farmer of Voedselbos Benthuizen, transformed a field into a thriving food forest where members can harvest, plant trees, and enjoy nature. This winter, 
+                they planted many new trees and hosted various activities, including guided tours and events. Liesbeth was inspired by the negative impacts of modern lifestyles on nature and personal health, leading her to create a solution that benefits both. She believes that caring for the planet improves personal well-being and restores our connection to nature.
+                 Liesbeth's training program helps others start their own food forests. She emphasizes the importance of integrating with nature and shifting values from monetary wealth to ecological richness </p>
+                 </div>
+            <div class="col-md-5">
+              <img class="featurette-image img-fluid mx-auto rounded-4" data-src="images/entrepreneurs/benthuizen.jpg" alt="500x500" style="width: 500px; height: 500px;" src="images/entrepreneurs/benthuizen.jpg" data-holder-rendered="true">
+            </div>
+          </div>
+  
+          <hr class="featurette-divider">
+  
+          <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+              <h2 class="featurette-heading">Alexander Ebbing. <span class="text-muted">Arbon Earth</span></h2>
+              <p class="lead">Arbon Earth combats climate change by combining kelp and bamboo to maximize carbon sequestration. They have developed floating Oceanpods made from bamboo and biodegradable ropes, allowing kelp to grow and create micro-ecosystems that enhance biodiversity through Integrated Multi-Trophic Aquaculture (IMTA). These Oceanpods, deployed offshore in the Atlantic, support marine life and, once mature, the algae sinks to the seabed, sequestering carbon for thousands of years. Arbon Earth conducts fundamental research on ecosystem impacts and scaling logistics to enhance their method's effectiveness. Founded by Magnus Willner and Carl Lindberg, Arbon Earth collaborates with scientists and companies to scale their innovative carbon removal technique, aiming to significantly mitigate climate change.</p>
+              </div>
+            <div class="col-md-5 order-md-1">
+              <img class="featurette-image img-fluid mx-auto rounded-4" data-src="images/entrepreneurs/squarealex.jpg" alt="500x500" style="width: 500px; height: 500px;" src="images/entrepreneurs/squarealex.jpg" data-holder-rendered="true">
+            </div>
+           </div>
+
+           <hr class="featurette-divider">
+
+          
+           <div class="row featurette">
+            <div class="col-md-7">
+              <h2 class="featurette-heading">Carl Mintjens. <span class="text-muted">Bamboologic</span></h2>
+              <p class="lead">Carl Mintjens is planting bamboo in the view of his furniture making company. Always searching for ways to make his production process more sustainable, Carl has chosen to pioneer with bamboo farming in Belgium, starting with this first plot in the Kempen region (Blommerschot village).
+                <break></break>
+                Carl is also aware of the positive effects of bamboo for climate, soil and biodiversity. The combination of the economic value of bamboo and the positive environmental effects are a true value throughout Carl’s story.
+                <break></break>
+                Bamboologic installs bamboo farms in Europe and sells the raw bamboo or primary processed bamboo as a base material to produce sustainable & durable alternatives for hardwood, steel, PVC, composite materials & cotton.</p>
+            </div>
+            <div class="col-md-5">
+              <img class="featurette-image img-fluid mx-auto rounded-4" data-src="images/entrepreneurs/carl.jpg" alt="500x500" style="width: 500px; height: 500px;" src="images/entrepreneurs/carl.jpeg" data-holder-rendered="true">
+            </div>
+          </div>
+  
+          <hr class="featurette-divider">
+  
+          <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+              <h2 class="featurette-heading">Eddy Wijnker. <span class="text-muted">greenSand</span></h2>
+              <p class="lead">GreenSand is the worlds’ first sand and rock trading company purposely deploying olivine sand for CO2 uptake to reverse global warming. With 15 years of experience, greenSand have their proprietary carbon accounting solution, that shows exactly on a map where and when the olivine sand is applied and thus the carbon is sequestered.</p>
+            </div>
+            <div class="col-md-5 order-md-1">
+              <img class="featurette-image img-fluid mx-auto rounded-4" data-src="images/entrepreneurs/eddy.jpeg" alt="500x500" style="width: 500px; height: 500px;" src="images/entrepreneurs/eddy.jpeg" data-holder-rendered="true">
+            </div>
+           </div>
+    
+            <hr class="featurette-divider">
+    
+            <div class="row featurette">
+              <div class="col-md-7">
+                <h2 class="featurette-heading">Joost Wouters. <span class="text-muted">The Seaweed Company  </span></h2>
+                <p class="lead">The Seaweed Company is the only European-rooted seaweed company that is globally active in the entire seaweed value chain with the development of high-end value products for humans, animals, crops and soils, and the standardized production of traceable and sustainable seaweed species globally. Our prime focus areas are BlueFarming, where we catalyse the transition to sustainable agriculture and BlueHealth, where we contribute to sustainable diets for human health & wellbeing.</p>
+              </div>
+              <div class="col-md-5">
+                <img class="featurette-image img-fluid mx-auto rounded-4" data-src="images/arbon.jpg" alt="500x500" style="width: 500px; height: 500px;" src="images/arbon.jpg" data-holder-rendered="true">
+              </div>
+            </div>
+    
+            <hr class="featurette-divider">
+    
+        
+        </div>
+        <!-- footer -->
+          <!--  ---------------- Footer -------------------- -->
+          <div class="container">
+            <footer class="py-3 my-4">
+              <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="index.html" class="nav-link px-3 text-muted">Our Solution</a></li>
+                <li class="nav-item dropdown text-muted">
+                    <a class="nav-link px-3 dropdown-toggle text-muted" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Pillars
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="pillar-land.html">Land</a></li>
+                      <li><a class="dropdown-item" href="pillar-ocean.html">Ocean</a></li>
+                      <li><a class="dropdown-item" href="pillar-construction.html">Construction</a></li>
+                      <li><a class="dropdown-item" href="pillar-rock.html">Rock</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a href="index.html" class="nav-link px-3 text-muted"><img src="images/logo.png" alt="Logo" style="height: 2rem;"></a></li>
+                <li class="nav-item"><a href="entrepreneurs.html" class="nav-link px-3 text-muted">Entrepreneurs</a></li>
+                <li class="nav-item"><a href="faq.html" class="nav-link px-3 text-muted">FAQ</a></li>
+              </ul>
+              <p class="text-center text-muted">© 2024 CompSocSci</p>
+            </footer>
+        </div>
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+      </body>
+  </html>

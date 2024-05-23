@@ -1,0 +1,121 @@
+/*-----------------------
+general
+-------------------------*/
+.h1 {
+    font-family: 'Trebuchet MS', sans-serif;
+}
+.title{
+    font-size: 5em;
+    color: rgb(16, 26, 16);
+    margin-top: -100px;
+    animation: slideIn 3s forwards; /* Animation definition */
+}
+    
+@keyframes slideIn {
+    from {
+        margin-top: -200px; /* Start position */
+    }
+    to {
+        margin-top: -100px; /* End position */
+    }
+}
+    
+
+.top-image{
+    background-size: cover;
+    margin-bottom: 80px;
+}
+
+
+.big {
+    font-size: 8em;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.434);
+}
+
+.land{
+    background-color: rgba(42, 98, 72, 0.315);
+    border-radius: 35px;
+
+}
+.ocean {
+    background-color: rgba(157, 190, 223, 0.429);
+    border-radius: 35px;
+}
+.rock {
+    background-color: rgba(224, 208, 172, 0.234);
+    border-radius: 35px;
+}
+.construction {
+    background-color: rgba(84, 123, 98, 0.204);
+    border-radius: 35px;
+}
+
+
+/*-----------------------
+Wave effect
+-------------------------*/
+section {
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    /* background: #228B22; */
+    background-size: 100% auto;
+}
+.waveTrans {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url(static\images\wave.png);
+    background-size: 1000px 100px;
+    animation: animate 4s ease-in-out infinite;
+    /* the below line takes the index of the waves to get them to move not at the same time */
+    animation-delay: calc(var(--i) * 0.25s); 
+}
+
+.waveTrans#waveTrans1{
+    z-index: 1000;
+    opacity: 1;
+    background-position-x:400px;
+}
+
+.waveTrans#waveTrans2{
+    z-index: 999;
+    opacity: 0.5;
+    background-position-x:300px;
+}
+
+.waveTrans#waveTrans3{
+    z-index: 998;
+    opacity: 0.2;
+    background-position-x:200px;
+}
+
+.waveTrans#waveTrans4{
+    z-index: 997;
+    opacity: 0.7;
+    background-position-x:100px;
+}
+
+
+@keyframes animate{
+    0%, 100% {
+        transform: translateY(0px)
+    }
+    50% {
+        transform: translateY(30px)
+    }
+}
+
+
+
+
+
+
+.section {
+    opacity: 0;
+    transform: translateY(50px); /* Initial position outside the viewport */
+    transition: opacity 1s ease, transform 1s ease;
+}
