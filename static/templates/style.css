@@ -60,14 +60,11 @@
     color: #5e5e5e;
 }
 
-
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
 
-section {
-    padding: 80px 0;
-}
+
 
 .section-bg {
     background-color: #17653012;
@@ -123,6 +120,19 @@ font-size: 16px;
 position: absolute;
 left: 0;
 top: -2px;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #6A1F1E;
+    background-color: rgba(30, 106, 31, 0.1)
+}
+
+.accordion-item {
+    padding: 30px;
+}
+
+.accordion-button {
+    font-size: 30px;
 }
 
 .faq .faq-list p {
