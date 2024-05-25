@@ -1,6 +1,6 @@
 # Informative website about nature-based solutions
 
-![Landing page](./readme-images/landing-page.png)
+![Landing page](./readme-images/Landing-page.png)
 *The landing page of the website*
 
 
