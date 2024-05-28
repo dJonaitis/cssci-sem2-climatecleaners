@@ -10,7 +10,14 @@
     margin-bottom: 80px;
 }
 
-
+.btn-primary {
+    background-color: #2e7354;
+    border-color: #2e7354;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active{
+    background-color:#21573f;
+    border-color: #21573f;
+}
 
 /*--------------------------------------------------------------
 # facts and figures
@@ -126,8 +133,13 @@ top: -2px;
 }
 
 .accordion-button:not(.collapsed) {
-    color: #6A1F1E;
-    background-color: rgba(30, 106, 31, 0.1)
+    color: black;
+    background-color: rgba(30, 106, 31, 0.1);
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+    border-color: rgba(0,0,0,.125);
 }
 
 .accordion-item {
