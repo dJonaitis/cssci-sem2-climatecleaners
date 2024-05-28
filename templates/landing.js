@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const sectionTop = section.getBoundingClientRect().top;
             const windowHeight = window.innerHeight;
 
-            if (sectionTop < windowHeight * 0.75) {
+            if (sectionTop < windowHeight * 0.90) {
                 section.style.opacity = '1';
                 section.style.transform = 'translateY(0)';
             } else {

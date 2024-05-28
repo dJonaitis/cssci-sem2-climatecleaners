@@ -119,3 +119,40 @@ section {
     transform: translateY(50px); /* Initial position outside the viewport */
     transition: opacity 0.5s ease, transform 0.5s ease;
 }
+
+
+/*----------------------
+    Responsive design
+-------------------------*/
+
+@media (max-width: 568px) {
+    .title {
+        font-size: 3em;
+        margin-top: -30px;
+    }
+
+    .top-image {
+        height: 50vh;
+        margin-bottom: 20px;
+    }
+  
+    .container {
+        margin: 0 auto; /* Center the container */
+        display: flex;
+        align-items: center; /* Center vertically */
+        flex-direction: column; /* Stack items vertically */
+    }
+
+    .container img {
+        width: 15em;
+        height: 15em;
+    }
+
+    .container h1 {
+        font-size: 2em;
+    }
+
+    .container p {
+        font-size: 1em;
+    }
+}
