@@ -234,3 +234,148 @@ section {
     }
 }
 
+/*----------------------
+    Responsive design
+-------------------------*/
+
+@media (max-width: 870px) {
+    .title {
+        font-size: 3em;
+        margin-top: -30px;
+    }
+
+    .top-image {
+        height: 50vh;
+        margin-bottom: 20px;
+    }
+
+    .nav-item {
+        font-size: 1.2rem;
+    }
+
+    .top-image {
+        margin-bottom: 40px;
+    }
+
+    .btn-primary {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+
+    .container {
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-title h2 {
+        font-size: 24px;
+    }
+
+    .facts .card {
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .accordion-button {
+        font-size: 20px;
+    }
+
+    .col-md-5 {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar-nav .nav-item {
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .top-image .container {
+        height: auto;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .top-image .title {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .accordion-item {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn-primary {
+        width: 100%;
+    }
+
+    .featurette-image {
+        width: 400px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .d-block{
+        align-items: center;
+    }
+
+    .container{
+        height: fit-content;
+    }
+
+    .container img {
+        width: 100%;
+        height: auto;
+    }
+
+   
+
+    .carousel-inner img {
+        width: 100%;
+        height: auto;
+    }
+
+    .featurette-image {
+        width: 100%;
+        height: auto;
+        max-width: 400px; 
+        max-height: 400px;
+    }
+
+    .featurette-divider {
+        display: block;
+    }
+
+
+    .section-bg {
+        background-color: #17653012;
+        height: fit-content;
+    }
+}
+@media (min-width: 871) and (max-width: 1000px) {
+    .featurette-image {
+        width: 100%;
+        height: auto;
+        max-width: 300px; 
+        max-height: 300px;
+    }
+}
