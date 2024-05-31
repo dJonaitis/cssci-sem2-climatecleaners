@@ -334,6 +334,10 @@ section {
         overflow: hidden; /* Prevent body scroll when navbar is open */
     }
 
+    .nav-item .nav-link img {
+        height: 8vw;
+    }
+
     #carouselExampleCaptions {
         margin-top: 10%;
     }
