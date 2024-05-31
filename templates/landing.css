@@ -167,15 +167,7 @@ section {
         text-align: center;
     }
 
-    .navbar-nav .nav-item .nav-link {
-        color: #000; 
-        transition: color 0.3s ease;
-    }
-
-    .navbar-nav .nav-item .nav-link:hover {
-        color: #2e7354; /* Text color on hover */
-    }
-
+    
     .navbar-collapse {
         position: absolute;
         top: 0;
