@@ -196,5 +196,7 @@ section {
     body.navbar-open {
         overflow: hidden; /* Prevent body scroll when navbar is open */
     }
-
+    #landingTitle {
+        display: none;
+    }
 }

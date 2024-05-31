@@ -38,3 +38,14 @@ document.addEventListener('DOMContentLoaded', function() {
     window.addEventListener('resize', checkScroll);
     checkScroll(); // Initial check on page load
 });
+
+let navbarOpened = false;
+function toggleLandingTitle(){
+    navbarOpened = !navbarOpened;
+    if(navbarOpened){
+        document.getElementById("landingTitle").style.display = "none";
+    } else{
+        document.getElementById("landingTitle").style.display = "block";
+    }
+}
+
