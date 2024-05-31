@@ -334,6 +334,11 @@ section {
         overflow: hidden; /* Prevent body scroll when navbar is open */
     }
 
+    #carouselExampleCaptions {
+        margin-top: 10%;
+    }
+
+
     .top-image .container {
         height: auto;
         padding: 20px;
